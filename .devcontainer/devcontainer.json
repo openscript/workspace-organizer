@@ -1,0 +1,11 @@
+{
+	"name": "workspace-organizer",
+	"image": "mcr.microsoft.com/devcontainers/go:1-1.23-bookworm",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot"
+			]
+		}
+	}
+}
