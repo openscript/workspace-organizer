@@ -12,3 +12,8 @@ Actions you can perform:
 
 - [] Create a project (clone a repository)
 - [] Search for a project (fuzzy find)
+
+
+## Resources
+
+- https://github.com/spf13/cobra/blob/main/site/content/user_guide.md
