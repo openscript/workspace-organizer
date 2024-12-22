@@ -8,9 +8,9 @@ Source code management systems you can use:
 
 - [x] Git
 
-Actions you can perform:
+Commands available:
 
-- [] Create a project (clone a repository)
+- [x] Use or create a project (clone a repository)
 - [] Search for a project (fuzzy find)
 
 

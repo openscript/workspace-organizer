@@ -11,7 +11,7 @@ func InitConfig() {
 	viper.SetConfigType("yaml")
 	viper.AddConfigPath(".")
 
-	viper.SetDefault("workspace.folder", "/path/to/default/workspace")
+	viper.SetDefault("workspace.folder", "~/workspace")
 
 	if err := viper.ReadInConfig(); err != nil {
 		if _, ok := err.(viper.ConfigFileNotFoundError); !ok {
