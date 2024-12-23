@@ -1,4 +1,4 @@
-It makes more sense to use shell scripts and functions to manage a workspace, hence this project is archived.
+It makes more sense to use shell scripts and functions to manage a workspace. For example you cannot manage the shell you are in from a different process, so you cannot change the directory for the current shell.
 
 # Workspace Organizer
 
