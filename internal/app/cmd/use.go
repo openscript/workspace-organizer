@@ -12,6 +12,8 @@ import (
 	"github.com/spf13/cobra"
 )
 
+var execCommand = exec.Command
+
 var useCmd = &cobra.Command{
 	Use:     "use <url>",
 	Short:   "Use a project",
@@ -56,7 +58,7 @@ func parseURL(url string) (hoster, org, repo string) {
 }
 
 func cloneProject(url, projectPath string) {
-	cmd := exec.Command("git", "clone", url, projectPath)
+	cmd := execCommand("git", "clone", url, projectPath)
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
 	if err := cmd.Run(); err != nil {
