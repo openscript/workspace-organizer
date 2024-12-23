@@ -1,3 +1,5 @@
+It makes more sense to use shell scripts and functions to manage a workspace, hence this project is archived.
+
 # Workspace Organizer
 
 Workspace Organizer is a tool to keep your workspace nice and tidy, while helping you to navigate and manage your projects. No more messy repositories scattered all over the place.
