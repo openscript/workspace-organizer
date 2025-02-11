@@ -3,9 +3,12 @@ package cmd
 import (
 	"fmt"
 	"os"
+	"os/exec"
 
 	"github.com/spf13/cobra"
 )
+
+var execCommand = exec.Command
 
 var rootCmd = &cobra.Command{
 	Use:   "wo",

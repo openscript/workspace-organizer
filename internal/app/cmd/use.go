@@ -4,15 +4,12 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"os/exec"
 	"path/filepath"
 	"strings"
 	"workspace-organizer/internal/app/config"
 
 	"github.com/spf13/cobra"
 )
-
-var execCommand = exec.Command
 
 var useCmd = &cobra.Command{
 	Use:     "use <url>",
